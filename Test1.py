@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-driver = webdriver.Chrome("/Users/sindhu/PycharmProjects/chromedriver")
+driver = webdriver.Chrome("/Users/sindhu/PycharmProjects/Chromedriver/chromedriver 2")
 driver.get("https://www.linkedin.com/")
 time.sleep(1)
 driver.find_element_by_xpath("//input[@name='session_key']").send_keys("sindhus1305@gmail.com")

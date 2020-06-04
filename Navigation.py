@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome("/Users/sindhu/PycharmProjects/chromedriver")
+driver = webdriver.Chrome("/Users/sindhu/PycharmProjects/Chromedriver/chromedriver 2")
 
 driver.get("https://nirmalatravels.com/")
 print(driver.title)

@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-driver = webdriver.Chrome("/Users/sindhu/PycharmProjects/chromedriver")
+driver = webdriver.Chrome("/Users/sindhu/PycharmProjects/Chromedriver/chromedriver 2")
 driver.maximize_window()
 driver.get("https://expedia.com")
 driver.implicitly_wait(5)
