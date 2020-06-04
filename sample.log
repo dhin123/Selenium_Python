@@ -1,0 +1,23 @@
+2020-05-25 18:17:35,868 : __main__ : Add : 10 + 0 = 10
+2020-05-25 18:17:35,868 : __main__ : Sub : 10 - 0 = 10
+2020-05-25 18:17:35,868 : __main__ : Mul: 10 * 0 = 0
+2020-05-25 18:17:35,868 : __main__ : Try to divide by zero
+2020-05-25 18:17:35,868 : __main__ : Div: 10 / 0 = None
+2020-05-25 18:19:40,640 : __main__ : Add : 10 + 0 = 10
+2020-05-25 18:19:40,641 : __main__ : Sub : 10 - 0 = 10
+2020-05-25 18:19:40,641 : __main__ : Mul: 10 * 0 = 0
+2020-05-25 18:19:40,641 : __main__ : Try to divide by zero
+Traceback (most recent call last):
+  File "/Users/sindhu/PycharmProjects/Selenium_Python/Logging.py", line 29, in div
+    result = x / y
+ZeroDivisionError: division by zero
+2020-05-25 18:19:40,641 : __main__ : Div: 10 / 0 = None
+2020-05-25 18:21:42,490 : __main__ : Add : 10 + 0 = 10
+2020-05-25 18:21:42,491 : __main__ : Sub : 10 - 0 = 10
+2020-05-25 18:21:42,491 : __main__ : Mul: 10 * 0 = 0
+2020-05-25 18:21:42,492 : __main__ : Try to divide by zero
+Traceback (most recent call last):
+  File "/Users/sindhu/PycharmProjects/Selenium_Python/Logging.py", line 34, in div
+    result = x / y
+ZeroDivisionError: division by zero
+2020-05-25 18:21:42,493 : __main__ : Div: 10 / 0 = None
